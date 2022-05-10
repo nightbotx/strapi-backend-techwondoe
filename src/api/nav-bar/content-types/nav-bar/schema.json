@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_bars",
+  "info": {
+    "singularName": "nav-bar",
+    "pluralName": "nav-bars",
+    "displayName": "NavBar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbarList": {
+      "type": "enumeration",
+      "enum": [
+        "About",
+        "Job Search",
+        "Candidates",
+        "Employers",
+        "Latest News",
+        "Contact"
+      ]
+    },
+    "scrollTo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_newss",
+  "info": {
+    "singularName": "section-news",
+    "pluralName": "section-newss",
+    "displayName": "SectionNews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news.news"
+    }
+  }
+}

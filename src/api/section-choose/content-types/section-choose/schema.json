@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_chooses",
+  "info": {
+    "singularName": "section-choose",
+    "pluralName": "section-chooses",
+    "displayName": "SectionChoose"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "chooses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::choose.choose"
+    }
+  }
+}
